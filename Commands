@@ -1,0 +1,10 @@
+sudo wireshark
+Filters used:
+tcp
+udp
+icmp
+
+
+
+sudo snort -i eth0
+sudo snort -i eth0 -d -e
