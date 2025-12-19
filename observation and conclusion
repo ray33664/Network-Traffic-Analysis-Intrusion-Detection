@@ -1,0 +1,21 @@
+🔍 Observations
+
+Network traffic was successfully captured in real time using Wireshark on the active network interface.
+
+Normal traffic consisted mainly of TCP, DNS, and ICMP packets with balanced packet flow.
+
+Packet analysis showed clear source and destination IP addresses, protocol types, and packet lengths.
+
+During simulated scans using Nmap on localhost, a significant increase in TCP SYN packets was observed.
+
+Snort 3 was able to capture live network packets after enabling packet dump and alert modes.
+
+Abnormal traffic patterns such as repeated connection attempts were identified during intrusion simulation.
+
+No alerts were generated during normal traffic capture, indicating correct baseline behavior.
+
+All analysis was performed in a controlled and legal environment.
+
+✅ Conclusion
+
+The Network Traffic Analysis & Intrusion Detection project successfully demonstrated how network traffic can be monitored and analyzed using Wireshark and Snort 3 on Kali Linux. By capturing normal traffic and simulating intrusion activities in a controlled environment, the project highlighted the differences between legitimate and malicious network behavior. Snort proved effective in monitoring network activity and detecting suspicious patterns, while Wireshark provided detailed packet-level insights. This project enhanced practical understanding of intrusion detection systems and network security monitoring, making it valuable for real-world cybersecurity applications and Security Operations Center (SOC) roles.
